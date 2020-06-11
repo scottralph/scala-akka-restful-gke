@@ -15,6 +15,7 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-testkit" % akkaVersion % "test",
   "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
   "com.typesafe.akka" %% "akka-http-testkit" % akkaHttpVersion % "test",
+  "com.typesafe.akka" %% "akka-stream" % akkaVersion,
   "com.typesafe" % "config" % "1.3.1",
   "org.slf4j" % "slf4j-api" % "1.7.22",
   "ch.qos.logback" % "logback-classic" % "1.1.7",
