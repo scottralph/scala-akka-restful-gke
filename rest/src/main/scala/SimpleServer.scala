@@ -6,7 +6,7 @@ object SimpleServer {
 
 
     // Starting the server
-    WebServer.startServer("localhost", 8080)
+    WebServer.startServer("0.0.0.0", 8081)
     val wait = scala.io.StdIn.readLine("Press enter to stop")
   }
 }

@@ -9,4 +9,9 @@ RUN \
   apt-get install sbt && \
   sbt sbtVersion
 
-  
+  COPY rest rest
+  WORKDIR /rest
+
+EXPOSE 8081
+
+CMD ["sbt", "run"]
