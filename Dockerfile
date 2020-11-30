@@ -14,4 +14,4 @@ RUN \
 
 EXPOSE 8081
 
-CMD ["sbt", "run"]
+CMD ["sbt", "runMain SimpleServer"]
